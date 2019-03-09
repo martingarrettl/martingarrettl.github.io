@@ -2,6 +2,7 @@
 layout: post
 title: "Website Launch"
 date: 2019-03-08
+categories: Writing
 ---
 
 Built up the initiative to actually launch a personal website.

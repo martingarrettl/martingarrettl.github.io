@@ -2,7 +2,10 @@
 layout: default
 title: Garrett Martin's Projects
 ---
-  <h2>Projects</h2>
-  <p>
-    No projects of note, unless you count this website.
-  </p>
+<h2>Projects</h2>
+<ul class="posts">
+
+  {% for post in site.posts.Projects %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
