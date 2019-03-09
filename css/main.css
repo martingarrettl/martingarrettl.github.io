@@ -24,13 +24,11 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Overpass', sans-serif;
-    font-weight: extra-light;
+    font-family: 'Overpass Light', sans-serif;
 }
 h2 {
   font-size: 1.8em;
-  font-family: 'Overpass', sans-serif;
-  font-weight: extra-light;
+  font-family: 'Overpass Extra-Light', sans-serif;
 }
 p {
     font-family: 'Overpass', sans-serif;
