@@ -22,6 +22,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: 'Overpass', sans-serif;
+    font-weight: light;
 }
 p {
     font-family: 'Overpass', sans-serif;
