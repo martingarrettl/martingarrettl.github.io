@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "Project Test"
 date: 2019-03-08
 categories: Projects
