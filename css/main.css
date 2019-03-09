@@ -39,7 +39,7 @@ a:hover {
     color: #ED2939
 }
 a.top:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #333
 }
 h1 {
