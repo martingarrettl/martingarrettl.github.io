@@ -59,6 +59,9 @@ p {
     font-weight: 400;
     color: #333;
 }
+p.meta {
+  font-size: 1em;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
