@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass:400', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: semi-bold;
@@ -25,14 +25,14 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Overpass Light', sans-serif;
+    font-family: 'Overpass:300', sans-serif;
 }
 h2 {
   font-size: 1.8em;
-  font-family: 'Overpass Extra-Light', sans-serif;
+  font-family: 'Overpass:300', sans-serif;
 }
 p {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass:400', sans-serif;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
