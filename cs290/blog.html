@@ -1,16 +1,63 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Garrett's Code Blog</title>
+    <meta charset="utf-8">
+    <title>Garrett's CS290 Code Blog</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- This is a 3rd-party stylesheet to make available the font family to be used for this page ("Roboto"). -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
   </head>
   <body>
-    <h1>Assignment 1</h1>
-    <h2>April 8th 2020</h2>
-    <p>
-    <h3>What challenges or troubles did you have completing this assignment. How did you solve them?</h3>
-    Largest challenge for me with this assignment was trying to remember html without looking anything up after not using for at least 5 years. Solved through liberal application of caffeine.<br>
-    <h3>What did you learn from this assignment? What did you already know?</h3>
-    So far, I was able to complete this assignment using just what I managed to pull from my memory of html.<br>
-    <h3>What resources were most helpful in completing this assignment? How did you use these resources?</h3>
-    I utilized no resources outside of my memory.<br>
-  </p>
-  </body>
+    <header>
+      <h1 class="title">Garrett's CS290 code blog</h1>
+
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navlink"><a href="#assignment1">Assignment 1</a></li>
+          <li class="navlink"><a href="#assignment2">Assignment 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="blog-container">
+
+      <article class="blog">
+        <div class="blog-title" id="assignment1">
+          <h1>Assignment 1</h1>
+        </div>
+        <div class="blog-date">
+          <h2>April 8th, 2020</h2>
+        </div>
+        <div class="blog-content">
+          <h3>What challenges or troubles did you have completing this assignment. How did you solve them?</h3>
+          <p>Largest challenge for me with this assignment was trying to remember html without looking anything up after not using for at least 5 years. Solved through liberal application of caffeine.</p><br>
+          <h3>What did you learn from this assignment? What did you already know?</h3>
+          <p>So far, I was able to complete this assignment using just what I managed to pull from my memory of html.</p><br>
+          <h3>What resources were most helpful in completing this assignment? How did you use these resources?</h3>
+          <p>I utilized no resources outside of my memory.</p><br>
+        </div>
+      </article>
+
+      <article class="blog">
+        <div class="blog-title" id="assignment2">
+          <h1>Assignment 2</h1>
+        </div>
+        <div class="blog-date">
+          <h2>April 27th, 2020</h2>
+        </div>
+        <div class="blog-content">
+          <h3>What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve those problems?</h3>
+          <p>The most challenging aspect was trying to get the dang weights correct on the fonts. Not sure if it's a problem with the linux version of Firefox, but I just couldn't get the title to look right.</p>
+          <h3>What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?</h3>
+          <p>A lot of this is still just a refresher on stuff i've already learned before, but using css to transform was specifically new to me.</p>
+          <h3>What kinds of resources were helpful for completing the assignment? Specific websites? Lectures? The class Piazza forum? The TAs? How did you use each of these resources?</h3>
+          <p>Liberal dose of googlin' stuff is my goto problem solver. Haven't had to use another method yet.</p>
+          <h3>What are one or two things you had to Google to complete the assignment?</h3>
+          <p>Once again, css tranforms. Although I pretty much just googled stuff all the time, specifically what attribute everything had and in what order they came in.</p>
+        </div>
+      </article>
+
+    </main>
+
+</html>
